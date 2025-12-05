@@ -187,7 +187,7 @@ $adminName = $_SESSION['admin_name'] ?? $_SESSION['admin_username'] ?? 'Admin';
     /* Remove margins/padding that cause gaps */
     .app-main section {
       margin: 0 !important;
-      padding: 0 !important;
+      padding: 1.25rem !important;
     }
     
     /* Header responsive */

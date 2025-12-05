@@ -210,6 +210,37 @@
     box-shadow: 0 4px 12px rgba(248, 113, 113, 0.3);
 }
 
+/* Content spacing - prevent text from being too close to card/section edges */
+section,
+.manage-panel {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+.animate-ui-card {
+    padding: 2.5rem;
+}
+
+section h1,
+section h2,
+section h3,
+.manage-panel h1,
+.manage-panel h2,
+.manage-panel h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+section p,
+.manage-panel p {
+    margin-bottom: 1rem;
+}
+
+.report-table {
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .animate-ui-modal {
